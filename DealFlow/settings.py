@@ -81,8 +81,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'DealFlow',
-        'HOST': '127.0.0.1',
-        'PORT': 27017,
+        'CLIENT':{
+            'host' : 'mongodb+srv://dhayalvikas2109:vikas123@dealflow.gmphs12.mongodb.net/',
+            'username' : 'dhayalvikas2109',
+            'password' : 'vikas123'
+        }
     }
 }
 
