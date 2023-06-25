@@ -6,6 +6,10 @@ Built a set of REST API's with Django-Rest-Framework that : -
 * Allows search by first name, last name, email, phone number and/or followers (DJANGO-FILTER) on the platform  
 * Supports pagination (DJANGO-PAGINATION) 
 * Stores these freelancers data in a Database (MONGO-DB)
+* Hosted on AWS Instance. Check the link here :
+  ```
+  http://3.15.5.27:8000/freelancers/
+  ```
 
 ## Setting-up Virtual envvironment :
 * Install virtualenv :
